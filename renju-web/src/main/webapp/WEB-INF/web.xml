@@ -80,10 +80,4 @@
         <servlet-name>renjuServlet</servlet-name>
     </filter-mapping>
 
-    <!-- ====================================================== -->
-    <!-- welcome page list -->
-    <!-- ====================================================== -->
-    <welcome-file-list>
-        <welcome-file>index.htm</welcome-file>
-    </welcome-file-list>
 </web-app>
