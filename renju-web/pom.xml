@@ -45,7 +45,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <webResources>
-                        <webResource>
+                        <resource>
                             <directory>${basedir}/src/main/webapp/WEB-INF</directory>
                             <includes>
                                 <include>web.xml</include>
@@ -54,7 +54,7 @@
                             </includes>
                             <targetPath>WEB-INF</targetPath>
                             <filtering>true</filtering>
-                        </webResource>
+                        </resource>
                     </webResources>
                     <!--<archive>-->
                     <!--<manifest>-->
