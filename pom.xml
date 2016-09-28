@@ -16,6 +16,8 @@
         <spring.version>4.1.7.RELEASE</spring.version>
         <velocity.version>1.6.4</velocity.version>
         <velocity-tools.version>1.4</velocity-tools.version>
+        <mybatis.version>3.3.0</mybatis.version>
+        <mybatis-spring.version>1.2.3</mybatis-spring.version>
     </properties>
 
     <modules>
@@ -113,6 +115,23 @@
                 <scope>provided</scope>
             </dependency>
 
+
+            <!--数据库支持-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-dbcp</groupId>
+                <artifactId>commons-dbcp</artifactId>
+                <version>1.2.2</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
